@@ -68,9 +68,12 @@ def daily_arxiv_update(topic):
         emoji = emoji_map[' '.join([topic, subtopic])]
         topic_msg = [f'## {emoji} [{subtopic}](https://arxiv.org/{categories[topic][subtopic]}/new)']
         for p in papers[topic][subtopic]:
-            topic_msg.append(f'### {p['title']}')
-            topic_msg.append(f'\t✒️ **Authors**: {', '.join(p['authors'])}')
-            topic_msg.append(f'\t🔗 **Link**: https://arxiv.org/{p['id']}\n')
+            title = p['title']
+            authors = ', '.join(p['authors'])
+            ID = p['id']
+            topic_msg.append(f'### {title}')
+            topic_msg.append(f'\t✒️ **Authors**: {authors}')
+            topic_msg.append(f'\t🔗 **Link**: https://arxiv.org/{ID}\n')
         while len('\n'.join(topic_msg)) > 1950:
             for _ in range(3):
                 topic_msg.pop()
