@@ -21,8 +21,8 @@ bot = commands.Bot(command_prefix="!", intents=intents)
 
 @tasks.loop(
     time=time(
-        hour=22,
-        minute=23,
+        hour=10,
+        minute=0,
         tzinfo=ZoneInfo("Africa/Johannesburg")
     )
 )
