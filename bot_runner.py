@@ -8,6 +8,6 @@ CHANNEL = os.getenv('CHANNEL_FILE')
 TAXONOMY = os.getenv('TAXONOMY_FILE')
 FILTER = os.getenv('FILTERING_FILE')
 
-bot = ArXivist((23, 50), CHANNEL, TAXONOMY, FILTER, timezone="Africa/Johannesburg")
+bot = ArXivist((10, 0), CHANNEL, TAXONOMY, FILTER, timezone="Africa/Johannesburg")
 
 bot.run(TOKEN)
