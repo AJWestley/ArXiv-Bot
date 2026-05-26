@@ -66,7 +66,7 @@ def daily_arxiv_update(topic):
         if subtopic not in papers[topic]:
             continue
         emoji = emoji_map[' '.join([topic, subtopic])]
-        topic_msg = [f'## {emoji} [{subtopic}](https://arxiv.org/{categories[topic][subtopic]}/new)']
+        topic_msg = [f'## {emoji} [{subtopic}](https://arxiv.org/list/{categories[topic][subtopic]}/new)']
         for p in papers[topic][subtopic]:
             title = p['title']
             authors = ', '.join(p['authors'])
