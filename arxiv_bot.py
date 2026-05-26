@@ -73,7 +73,7 @@ def daily_arxiv_update(topic):
             ID = p['id']
             topic_msg.append(f'### {title}')
             topic_msg.append(f'\t✒️ **Authors**: {authors}')
-            topic_msg.append(f'\t🔗 **Link**: https://arxiv.org/{ID}\n')
+            topic_msg.append(f'\t🔗 **Link**: {ID}\n')
         while len('\n'.join(topic_msg)) > 1950:
             for _ in range(3):
                 topic_msg.pop()
