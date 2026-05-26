@@ -3,9 +3,7 @@ import urllib.error as urlerror
 import xml.etree.ElementTree as ET
 from time import sleep
 import logging
-from time_utils import last_weekday, yesterday, arxiv_str
-from relevance_filtering import filter_relevant
-from arxiv_categories import categories, code_map
+from src.utils.time_utils import arxiv_str
 
 BASE_URL = 'https://export.arxiv.org/api'
 
@@ -14,9 +12,13 @@ logger = logging.getLogger(__name__)
 
 # ----- Paper Retrieval -----
 
-def get_papers(start_date, end_date, category=None, max_results=1000, retries=10):
-
-    date_range = f"[{arxiv_str(start_date)}0000+TO+{arxiv_str(end_date)}2359]"
+def get_papers(date, category=None, max_results=1000, retries=10, polite_delay=3):
+    '''
+    Finds all papers published on the ArXiv on a provided date within a list of categories
+    '''
+    sleep(polite_delay)
+    date_str = arxiv_str(date)
+    date_range = f"[{date_str}0000+TO+{date_str}2359]"
     query = f"submittedDate:{date_range}"
     if category:
         if isinstance(category, list):
@@ -34,7 +36,8 @@ def get_papers(start_date, end_date, category=None, max_results=1000, retries=10
 
     for attempt in range(retries):
         try:
-            with libreq.urlopen(url, timeout=30) as response:
+            req = libreq.Request(url, headers={"User-Agent": "ArXivistBot/1.0 (alexanderjwestley@gmail.com)"})
+            with libreq.urlopen(req, timeout=30) as response:
                 raw = response.read()
 
         except urlerror.HTTPError as e:
@@ -75,57 +78,3 @@ def get_papers(start_date, end_date, category=None, max_results=1000, retries=10
 
     raise RuntimeError(f"Failed to fetch papers after {retries} attempts")
 
-def get_all_papers(field, start_date=None, end_date=None):
-    if start_date is None:
-        start_date = last_weekday()
-    if end_date is None:
-        end_date = yesterday()
-    
-    cats = get_valid_categories(field)
-    
-    papers = get_papers(start_date, end_date, cats)
-    papers = filter_relevant(papers)
-    papers = group_by_category(papers, set(cats))
-    
-    return papers
-
-
-# ----- Category Grouping -----
-
-def group_by_category(papers, requested_categories=None, max_per_category=5):
-    
-    for paper in papers:
-        primary_category = [category for category in paper['categories'] if category in requested_categories][0]
-        del paper['categories']
-        paper['category'] = primary_category
-    
-    grouped = dict()
-
-    for paper in papers:
-        topic, subtopic = code_map[paper['category']]
-        if topic not in grouped:
-            grouped[topic] = dict()
-        if subtopic not in grouped[topic]:
-            grouped[topic][subtopic] = []
-        if len(grouped[topic][subtopic]) < max_per_category:
-            grouped[topic][subtopic].append(paper)
-
-    return grouped
-
-def get_valid_categories(field=None):
-    if field is None:
-        cats = [categories[topic][subtopic] for topic in categories for subtopic in categories[topic]]
-    else:
-        cats = [categories[field][subtopic] for subtopic in categories[field]]
-    return cats
-
-
-# ----- Main for Testing -----
-
-if __name__ == '__main__':
-    papers = get_all_papers()
-    for c in papers:
-        for p in papers[c]:
-            print(p['title'])
-            print(p['categories'])
-            print()

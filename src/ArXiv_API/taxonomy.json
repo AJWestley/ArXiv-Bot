@@ -1,0 +1,676 @@
+{
+  "Computer Science": {
+    "code": "cs",
+    "emoji": "💻",
+    "subfields": {
+      "Artificial Intelligence": {
+        "code": "cs.AI",
+        "emoji": "🤖"
+      },
+      "Hardware Architecture": {
+        "code": "cs.AR",
+        "emoji": "🖥️"
+      },
+      "Computational Complexity": {
+        "code": "cs.CC",
+        "emoji": "🧩"
+      },
+      "Computational Engineering, Finance and Science": {
+        "code": "cs.CE",
+        "emoji": "⚙️"
+      },
+      "Computational Geometry": {
+        "code": "cs.CG",
+        "emoji": "📐"
+      },
+      "Computation and Language": {
+        "code": "cs.CL",
+        "emoji": "🗣️"
+      },
+      "Cryptography and Security": {
+        "code": "cs.CR",
+        "emoji": "🔐"
+      },
+      "Computer Vision and Pattern Recognition": {
+        "code": "cs.CV",
+        "emoji": "👁️"
+      },
+      "Computers and Society": {
+        "code": "cs.CY",
+        "emoji": "🏙️"
+      },
+      "Databases": {
+        "code": "cs.DB",
+        "emoji": "🗄️"
+      },
+      "Distributed, Parallel and Cluster Computing": {
+        "code": "cs.DC",
+        "emoji": "🌐"
+      },
+      "Digital Libraries": {
+        "code": "cs.DL",
+        "emoji": "📚"
+      },
+      "Discrete Mathematics": {
+        "code": "cs.DM",
+        "emoji": "♟️"
+      },
+      "Data Structures and Algorithms": {
+        "code": "cs.DS",
+        "emoji": "🌳"
+      },
+      "Emerging Technologies": {
+        "code": "cs.ET",
+        "emoji": "🚀"
+      },
+      "Formal Languages and Automata Theory": {
+        "code": "cs.FL",
+        "emoji": "🔤"
+      },
+      "General Literature": {
+        "code": "cs.GL",
+        "emoji": "📖"
+      },
+      "Graphics": {
+        "code": "cs.GR",
+        "emoji": "🎨"
+      },
+      "Computer Science and Game Theory": {
+        "code": "cs.GT",
+        "emoji": "🎲"
+      },
+      "Human-Computer Interaction": {
+        "code": "cs.HC",
+        "emoji": "👆"
+      },
+      "Information Retrieval": {
+        "code": "cs.IR",
+        "emoji": "🔍"
+      },
+      "Information Theory": {
+        "code": "cs.IT",
+        "emoji": "📡"
+      },
+      "Machine Learning": {
+        "code": "cs.LG",
+        "emoji": "🧠"
+      },
+      "Logic in Computer Science": {
+        "code": "cs.LO",
+        "emoji": "∴"
+      },
+      "Multiagent Systems": {
+        "code": "cs.MA",
+        "emoji": "👥"
+      },
+      "Multimedia": {
+        "code": "cs.MM",
+        "emoji": "🎬"
+      },
+      "Mathematical Software": {
+        "code": "cs.MS",
+        "emoji": "📋"
+      },
+      "Numerical Analysis": {
+        "code": "cs.NA",
+        "emoji": "📏"
+      },
+      "Neural and Evolutionary Computing": {
+        "code": "cs.NE",
+        "emoji": "🧬"
+      },
+      "Networking and Internet Architecture": {
+        "code": "cs.NI",
+        "emoji": "🌍"
+      },
+      "Other Computer Science": {
+        "code": "cs.OH",
+        "emoji": "📦"
+      },
+      "Operating Systems": {
+        "code": "cs.OS",
+        "emoji": "⚙"
+      },
+      "Performance": {
+        "code": "cs.PF",
+        "emoji": "🏎️"
+      },
+      "Programming Languages": {
+        "code": "cs.PL",
+        "emoji": "⌨️"
+      },
+      "Robotics": {
+        "code": "cs.RO",
+        "emoji": "🦾"
+      },
+      "Symbolic Computation": {
+        "code": "cs.SC",
+        "emoji": "∑"
+      },
+      "Sound": {
+        "code": "cs.SD",
+        "emoji": "🔊"
+      },
+      "Software Engineering": {
+        "code": "cs.SE",
+        "emoji": "🛠️"
+      },
+      "Social and Information Networks": {
+        "code": "cs.SI",
+        "emoji": "🕸️"
+      },
+      "Systems and Control": {
+        "code": "cs.SY",
+        "emoji": "🎛️"
+      }
+    }
+  },
+  "Economics": {
+    "code": "econ",
+    "emoji": "📈",
+    "subfields": {
+      "Econometrics": {
+        "code": "econ.EM",
+        "emoji": "📉"
+      },
+      "General Economics": {
+        "code": "econ.GN",
+        "emoji": "🏦"
+      },
+      "Theoretical Economics": {
+        "code": "econ.TH",
+        "emoji": "💰"
+      }
+    }
+  },
+  "Electrical Engineering and Systems Science": {
+    "code": "eess",
+    "emoji": "⚡",
+    "subfields": {
+      "Audio and Speech Processing": {
+        "code": "eess.AS",
+        "emoji": "🎙️"
+      },
+      "Image and Video Processing": {
+        "code": "eess.IV",
+        "emoji": "📹"
+      },
+      "Signal Processing": {
+        "code": "eess.SP",
+        "emoji": "📶"
+      },
+      "Systems and Control": {
+        "code": "eess.SY",
+        "emoji": "🎚️"
+      }
+    }
+  },
+  "Mathematics": {
+    "code": "math",
+    "emoji": "➗",
+    "subfields": {
+      "Algebraic Topology": {
+        "code": "math.AT",
+        "emoji": "🔵"
+      },
+      "Category Theory": {
+        "code": "math.CT",
+        "emoji": "🗂️"
+      },
+      "Classical Analysis and ODEs": {
+        "code": "math.CA",
+        "emoji": "📉"
+      },
+      "Combinatorics": {
+        "code": "math.CO",
+        "emoji": "🎯"
+      },
+      "Commutative Algebra": {
+        "code": "math.AC",
+        "emoji": "🔗"
+      },
+      "Complex Variables": {
+        "code": "math.CV",
+        "emoji": "🌀"
+      },
+      "Differential Geometry": {
+        "code": "math.DG",
+        "emoji": "📐"
+      },
+      "Dynamical Systems": {
+        "code": "math.DS",
+        "emoji": "🌊"
+      },
+      "Functional Analysis": {
+        "code": "math.FA",
+        "emoji": "🔧"
+      },
+      "General Mathematics": {
+        "code": "math.GM",
+        "emoji": "📖"
+      },
+      "General Topology": {
+        "code": "math.GN",
+        "emoji": "🕸️"
+      },
+      "Group Theory": {
+        "code": "math.GR",
+        "emoji": "⬡"
+      },
+      "Geometric Topology": {
+        "code": "math.GT",
+        "emoji": "🫧"
+      },
+      "History and Overview": {
+        "code": "math.HO",
+        "emoji": "🏛️"
+      },
+      "Information Theory": {
+        "code": "math.IT",
+        "emoji": "📡"
+      },
+      "K-Theory and Homology": {
+        "code": "math.KT",
+        "emoji": "🧲"
+      },
+      "Logic": {
+        "code": "math.LO",
+        "emoji": "∴"
+      },
+      "Metric Geometry": {
+        "code": "math.MG",
+        "emoji": "📏"
+      },
+      "Mathematical Physics": {
+        "code": "math.MP",
+        "emoji": "⚛️"
+      },
+      "Numerical Analysis": {
+        "code": "math.NA",
+        "emoji": "🖩"
+      },
+      "Number Theory": {
+        "code": "math.NT",
+        "emoji": "🔢"
+      },
+      "Operator Algebras": {
+        "code": "math.OA",
+        "emoji": "🎼"
+      },
+      "Optimization and Control": {
+        "code": "math.OC",
+        "emoji": "🎛️"
+      },
+      "Probability": {
+        "code": "math.PR",
+        "emoji": "🎲"
+      },
+      "Quantum Algebra": {
+        "code": "math.QA",
+        "emoji": "🔮"
+      },
+      "Rings and Algebras": {
+        "code": "math.RA",
+        "emoji": "💍"
+      },
+      "Representation Theory": {
+        "code": "math.RT",
+        "emoji": "🪞"
+      },
+      "Symplectic Geometry": {
+        "code": "math.SG",
+        "emoji": "🌐"
+      },
+      "Spectral Theory": {
+        "code": "math.SP",
+        "emoji": "🌈"
+      },
+      "Statistics Theory": {
+        "code": "math.ST",
+        "emoji": "📊"
+      }
+    }
+  },
+  "Astrophysics": {
+    "code": "astro-ph",
+    "emoji": "🌠",
+    "subfields": {
+      "Cosmology and Nongalactic Astrophysics": {
+        "code": "astro-ph.CO",
+        "emoji": "☄️"
+      },
+      "Earth and Planetary Astrophysics": {
+        "code": "astro-ph.EP",
+        "emoji": "🪐"
+      },
+      "Astrophysics of Galaxies": {
+        "code": "astro-ph.GA",
+        "emoji": "🌌"
+      },
+      "High Energy Astrophysical Phenomena": {
+        "code": "astro-ph.HE",
+        "emoji": "💥"
+      },
+      "Instrumentation and Methods for Astrophysics": {
+        "code": "astro-ph.IM",
+        "emoji": "🔭"
+      },
+      "Solar and Stellar Astrophysics": {
+        "code": "astro-ph.SR",
+        "emoji": "☀️"
+      }
+    }
+  },
+  "Condensed Matter" : {
+    "code": "cond-mat",
+    "emoji": "🧊",
+    "subfields": {
+      "Disordered Systems and Neural Networks": {
+        "code": "cond-mat.dis-nn",
+        "emoji": "🧠"
+      },
+      "Mesoscale and Nanoscale Physics": {
+        "code": "cond-mat.mes-hall",
+        "emoji": "🔩"
+      },
+      "Materials Science": {
+        "code": "cond-mat.mtrl-sci",
+        "emoji": "🪨"
+      },
+      "Other Condensed Matter": {
+        "code": "cond-mat.other",
+        "emoji": "📦"
+      },
+      "Quantum Gases": {
+        "code": "cond-mat.quant-gas",
+        "emoji": "💨"
+      },
+      "Soft Condensed Matter": {
+        "code": "cond-mat.soft",
+        "emoji": "🫧"
+      },
+      "Statistical Mechanics": {
+        "code": "cond-mat.stat-mech",
+        "emoji": "⚖️"
+      },
+      "Strongly Correlated Electrons": {
+        "code": "cond-mat.str-el",
+        "emoji": "⚡"
+      },
+      "Superconductivity": {
+        "code": "cond-mat.supr-con",
+        "emoji": "🧲"
+      }
+    }
+  },
+  "Nonlinear Sciences": {
+    "code": "nlin",
+    "emoji": "〰️",
+    "subfields": {
+      "Adaptation and Self-Organizing Systems": {
+        "code": "nlin.AO",
+        "emoji": "🌱"
+      },
+      "Chaotic Dynamics": {
+        "code": "nlin.CD",
+        "emoji": "🦋"
+      },
+      "Cellular Automata and Lattice Gases": {
+        "code": "nlin.CG",
+        "emoji": "🔲"
+      },
+      "Pattern Formation and Solitons": {
+        "code": "nlin.PS",
+        "emoji": "🌊"
+      },
+      "Exactly Solvable and Integrable Systems": {
+        "code": "nlin.SI",
+        "emoji": "♾️"
+      }
+    }
+  },
+  "Physics": {
+    "code": "physics",
+    "emoji": "🔬",
+    "subfields": {
+      "General Relativity and Quantum Cosmology": {
+        "code": "gr-qc",
+        "emoji": "🕳️"
+      },
+      "High Energy Physics - Experiment": {
+        "code": "hep-ex",
+        "emoji": "💫"
+      },
+      "High Energy Physics - Lattice": {
+        "code": "hep-lat",
+        "emoji": "🔷"
+      },
+      "High Energy Physics - Phenomenology": {
+        "code": "hep-ph",
+        "emoji": "🌀"
+      },
+      "High Energy Physics - Theory": {
+        "code": "hep-th",
+        "emoji": "📐"
+      },
+      "Mathematical Physics": {
+        "code": "math-ph",
+        "emoji": "∑"
+      },
+      "Nuclear Experiment": {
+        "code": "nucl-ex",
+        "emoji": "☢️"
+      },
+      "Nuclear Theory": {
+        "code": "nucl-th",
+        "emoji": "⚛️"
+      },
+      "Quantum Physics": {
+        "code": "quant-ph",
+        "emoji": "🔮"
+      },
+      "Accelerator Physics": {
+        "code": "physics.acc-ph",
+        "emoji": "🚀"
+      },
+      "Applied Physics": {
+        "code": "physics.app-ph",
+        "emoji": "🔧"
+      },
+      "Atmospheric and Oceanic Physics": {
+        "code": "physics.ao-ph",
+        "emoji": "🌊"
+      },
+      "Atomic Physics": {
+        "code": "physics.atom-ph",
+        "emoji": "🔵"
+      },
+      "Biological Physics": {
+        "code": "physics.bio-ph",
+        "emoji": "🧬"
+      },
+      "Chemical Physics": {
+        "code": "physics.chem-ph",
+        "emoji": "⚗️"
+      },
+      "Classical Physics": {
+        "code": "physics.class-ph",
+        "emoji": "🏛️"
+      },
+      "Computational Physics": {
+        "code": "physics.comp-ph",
+        "emoji": "💻"
+      },
+      "Data Analysis, Statistics and Probability": {
+        "code": "physics.data-an",
+        "emoji": "📊"
+      },
+      "Fluid Dynamics": {
+        "code": "physics.flu-dyn",
+        "emoji": "💧"
+      },
+      "General Physics": {
+        "code": "physics.gen-ph",
+        "emoji": "📖"
+      },
+      "Geophysics": {
+        "code": "physics.geo-ph",
+        "emoji": "🌍"
+      },
+      "History and Philosophy of Physics": {
+        "code": "physics.hist-ph",
+        "emoji": "📜"
+      },
+      "Instrumentation and Detectors": {
+        "code": "physics.ins-det",
+        "emoji": "🎛️"
+      },
+      "Medical Physics": {
+        "code": "physics.med-ph",
+        "emoji": "🏥"
+      },
+      "Optics": {
+        "code": "physics.optics",
+        "emoji": "🔦"
+      },
+      "Physics Education": {
+        "code": "physics.ed-ph",
+        "emoji": "🎓"
+      },
+      "Physics and Society": {
+        "code": "physics.soc-ph",
+        "emoji": "🏙️"
+      },
+      "Plasma Physics": {
+        "code": "physics.plasm-ph",
+        "emoji": "🌟"
+      },
+      "Popular Physics": {
+        "code": "physics.pop-ph",
+        "emoji": "🎉"
+      },
+      "Space Physics": {
+        "code": "physics.space-ph",
+        "emoji": "🛸"
+      }
+    }
+  },
+  "Quantitative Biology": {
+    "code": "q-bio",
+    "emoji": "🧫",
+    "subfields": {
+      "Biomolecules": {
+        "code": "q-bio.BM",
+        "emoji": "🔬"
+      },
+      "Cell Behavior": {
+        "code": "q-bio.CB",
+        "emoji": "🦠"
+      },
+      "Genomics": {
+        "code": "q-bio.GN",
+        "emoji": "🧬"
+      },
+      "Molecular Networks": {
+        "code": "q-bio.MN",
+        "emoji": "🕸️"
+      },
+      "Neurons and Cognition": {
+        "code": "q-bio.NC",
+        "emoji": "🧠"
+      },
+      "Other Quantitative Biology": {
+        "code": "q-bio.OT",
+        "emoji": "📦"
+      },
+      "Populations and Evolution": {
+        "code": "q-bio.PE",
+        "emoji": "🌿"
+      },
+      "Quantitative Methods": {
+        "code": "q-bio.QM",
+        "emoji": "📐"
+      },
+      "Subcellular Processes": {
+        "code": "q-bio.SC",
+        "emoji": "⚙️"
+      },
+      "Tissues and Organs": {
+        "code": "q-bio.TO",
+        "emoji": "🫀"
+      }
+    }
+  },
+  "Quantitative Finance": {
+    "code": "q-fin",
+    "emoji": "💹",
+    "subfields": {
+      "Computational Finance": {
+        "code": "q-fin.CP",
+        "emoji": "💻"
+      },
+      "Economics": {
+        "code": "q-fin.EC",
+        "emoji": "🏦"
+      },
+      "General Finance": {
+        "code": "q-fin.GN",
+        "emoji": "📈"
+      },
+      "Mathematical Finance": {
+        "code": "q-fin.MF",
+        "emoji": "📐"
+      },
+      "Portfolio Management": {
+        "code": "q-fin.PM",
+        "emoji": "📊"
+      },
+      "Pricing of Securities": {
+        "code": "q-fin.PR",
+        "emoji": "🏷️"
+      },
+      "Risk Management": {
+        "code": "q-fin.RM",
+        "emoji": "🛡️"
+      },
+      "Statistical Finance": {
+        "code": "q-fin.ST",
+        "emoji": "📉"
+      },
+      "Trading and Market Microstructure": {
+        "code": "q-fin.TR",
+        "emoji": "🔄"
+      }
+    }
+  },
+  "Statistics": {
+    "code": "stat",
+    "emoji": "📊",
+    "subfields": {
+      "Applications": {
+        "code": "stat.AP",
+        "emoji": "🔧"
+      },
+      "Computation": {
+        "code": "stat.CO",
+        "emoji": "💻"
+      },
+      "Machine Learning": {
+        "code": "stat.ML",
+        "emoji": "🧠"
+      },
+      "Methodology": {
+        "code": "stat.ME",
+        "emoji": "📐"
+      },
+      "Other Statistics": {
+        "code": "stat.OT",
+        "emoji": "📦"
+      },
+      "Statistics Theory": {
+        "code": "stat.TH",
+        "emoji": "📜"
+      }
+    }
+  }
+}

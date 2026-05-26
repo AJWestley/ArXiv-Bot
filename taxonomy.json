@@ -1,0 +1,17 @@
+{
+    "Astrophysics": [
+        "Solar and Stellar Astrophysics",
+        "Earth and Planetary Astrophysics",
+        "High Energy Astrophysical Phenomena",
+        "Astrophysics of Galaxies",
+        "Cosmology and Nongalactic Astrophysics",
+        "Instrumentation and Methods for Astrophysics"
+    ],
+    "Computer Science": [
+        "Machine Learning",
+        "Computer Vision and Pattern Recognition",
+        "Neural and Evolutionary Computing",
+        "Distributed, Parallel and Cluster Computing",
+        "Mathematical Software"
+    ]
+}
