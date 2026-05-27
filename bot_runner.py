@@ -4,10 +4,10 @@ from src.arxivist import ArXivist
 
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
-CHANNEL = os.getenv('CHANNEL_FILE')
-TAXONOMY = os.getenv('TAXONOMY_FILE')
-FILTER = os.getenv('FILTERING_FILE')
 
-bot = ArXivist((10, 0), CHANNEL, TAXONOMY, FILTER, timezone="Africa/Johannesburg")
+update_hour = 10
+update_min = 0
+
+bot = ArXivist((update_hour, update_min), 'channels.json', 'taxonomy.json', 'filtering.json', timezone="Africa/Johannesburg")
 
 bot.run(TOKEN)
